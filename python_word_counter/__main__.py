@@ -14,8 +14,9 @@ logging.basicConfig(
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "directory",
+        "--directory",
         type=str,
+        required=True,
         help="Path to the directory containing .txt files",
     )
     return parser.parse_args()

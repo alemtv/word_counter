@@ -18,6 +18,6 @@ source venv/bin/activate
 
 Run:
 ```
-python -m python_word_counter txt_files/
+python -m python_word_counter --directory txt_files/
 ```
 
